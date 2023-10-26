@@ -1,0 +1,84 @@
+<Patient xmlns="http://hl7.org/fhir">
+   <text>
+      <status value="generated"/>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+         <div class="hapiHeaderText">Debal 
+            <b>Guha </b>
+         </div>
+         <table class="hapiPropertyTable">
+            <tbody>
+               <tr>
+                  <td>Address</td>
+                  <td>
+                     <span>12 SADAR ST </span>
+                     <br/>
+                     <span>KOLKATA </span>
+                     <span>WB </span>
+                  </td>
+               </tr>
+               <tr>
+                  <td>Date of birth</td>
+                  <td>
+                     <span>08 November 1988</span>
+                  </td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+   </text>
+   <identifier>
+      <use value="usual"/>
+      <type>
+         <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+            <code value="MR"/>
+            <display value="Medical Record Number"/>
+         </coding>
+      </type>
+      <value value="4039945981744"/>
+   </identifier>
+   <identifier>
+      <use value="official"/>
+      <type>
+         <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+            <code value="SB"/>
+            <display value="Social Security Number"/>
+         </coding>
+      </type>
+      <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+      <value value="124686652"/>
+   </identifier>
+   <name>
+      <use value="official"/>
+      <text value="DEBAL GUHA"/>
+      <family value="GUHA"/>
+      <given value="DEBAL"/>
+   </name>
+   <gender value="male"/>
+   <birthDate value="1988-11-08"/>
+   <deceasedBoolean value="false"/>
+   <address>
+      <use value="temp"/>
+      <text value="12 SADAR ST  KOLKATA WB 700001"/>
+      <line value="12 SADAR ST"/>
+      <city value="KOLKATA"/>
+      <district value="001"/>
+      <state value="WB"/>
+      <postalCode value="700001"/>
+   </address>
+   <maritalStatus>
+      <coding>
+         <system value="http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"/>
+         <code value="S"/>
+      </coding>
+   </maritalStatus>
+   <communication>
+      <language>
+         <coding>
+            <system value="urn:oid:2.16.840.1.113883.4.642.3.891"/>
+            <code value="OTH"/>
+         </coding>
+      </language>
+   </communication>
+</Patient>
